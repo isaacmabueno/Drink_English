@@ -1,12 +1,10 @@
-body {
-  padding-top: 70px;
-}
 .navbar, .navbar-inverse {
 	border-radius: 0;
 	border: none;
 	margin-bottom: 0;
-	min-height: 80px;
+	min-height: 50px;
 }
+
 
 .nav li {
 	display: inline;
@@ -16,9 +14,8 @@ body {
 .navbar-inverse .navbar-nav > li > a {
 	color: #ffffff;
 	font-family: Anton;
-	font-size: 1.7em;
+	font-size: 1.2em;
 	font-weight: 300;
-	padding: 30px 25px 33px 25px;
 }
 
 .navbar-inverse .navbar-nav li a:hover {
@@ -50,3 +47,63 @@ a {
   color: white;
   text-decoration: none;
   }
+  .hero{
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.123), rgba(255,255,255,0.123)), url('http://i.imgur.com/RyXAGXk.jpg?1');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height:700px;
+    width:100%;
+    padding-bottom:40%;
+    padding-top: 0;
+    margin: 0;
+    //opacity: 0.8;
+  }
+
+  .location {
+    float: right;
+  }
+  .logo {
+    width: 70%;
+    margin: 0 auto;
+    background: url('http://i.imgur.com/kN3fdT2.png?1') no-repeat center center;
+    background-size: contain;
+    position:relative;
+    height:700px;
+    padding-bottom:42.85714%;
+    padding-top: 0;
+    /*display: none;*/
+  }
+  .logo1 {
+  width: 70%;
+  margin: 0 auto;
+  background: url('http://i.imgur.com/2cSoC7D.png?1') no-repeat center center;
+  background-size: contain;
+  position:relative;
+  height:700px;
+  padding-bottom:42.85714%;
+  padding-top: 0;
+  /*display:none;*/
+  z-index: 10000;
+}
+.names {
+  font-family: "Archivo Narrow";
+  text-align: center;
+  font-size: 5.5vw;
+  margin-bottom: 0;
+}
+.loc {
+  font-family: "Archivo Narrow";
+  text-align: center;
+  color: rgb(153,101,21);
+  font-size: 4vw;
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+  .names {
+    text-align: center;
+  }
+}
