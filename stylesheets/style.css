@@ -4,6 +4,9 @@
 	margin-bottom: 0;
 	min-height: 50px;
 }
+nav.navbar.navbar-inverse.navbar-fixed-top{
+	background-color: rgba(0,0,0,.87);
+}
 .navbar-fixed-bottom {
   position: absolute !important;
 }
@@ -23,7 +26,7 @@
 	height: 100%;
 }
 a {
-  color: white;
+  color: black;
   text-decoration: none;
   }
 
@@ -86,7 +89,7 @@ a:active {
   margin-left:15%;
   }
 .opengarage {
-  /*position: fixed;*/
+  /*position: */
   }
 .names {
   font-family: "Archivo Narrow";
@@ -175,9 +178,11 @@ a:active {
   font-size: 3em;
   text-align: center;
 }
-qi {
+p.email.col-md-6 {
   font-family: "Archivo Narrow";
   font-size: 2em;
+	color: black;
+	text-align: center;
   }
 @media all and (max-width: 991px) and (min-width: 701px) {
 	p.aboutdesc {
