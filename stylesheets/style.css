@@ -1,110 +1,104 @@
 .navbar, .navbar-inverse {
-	border-radius: 0;
-	border: none;
-	margin-bottom: 0;
-	min-height: 50px;
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+  min-height: 50px;
 }
-nav.navbar.navbar-inverse.navbar-fixed-top{
-	background-color: rgba(0,0,0,.87);
+nav.navbar.navbar-inverse.navbar-fixed-top {
+  background-color: rgba(0, 0, 0, .87);
 }
 .navbar-fixed-bottom {
   position: absolute !important;
 }
 .nav li {
-	display: inline;
-	color: white;
+  display: inline;
+  color: white;
 }
 .navbar-inverse .navbar-nav > li > a {
-	color: #ffffff;
-	font-family: Anton;
-	font-size: 1.2em;
-	font-weight: 300;
+  color: #ffffff;
+  font-family: Anton;
+  font-size: 1.2em;
+  font-weight: 300;
 }
 .navbar-inverse .navbar-nav li a:hover {
-	background-color: #444444;
-	transition: 0.7s all linear;
-	height: 100%;
+  background-color: #444444;
+  transition: 0.7s all linear;
+  height: 100%;
 }
 a {
   color: black;
   text-decoration: none;
-  }
-
+}
 a:visted {
   color: white;
   text-decoration: none;
-  }
-
+}
 a:hover {
-  color: rgb(153,101,21) !important;
+  color: rgb(153, 101, 21) !important;
   text-decoration: underline;
-  }
-
+}
 a:focus {
   color: white;
   text-decoration: none;
-  }
-
+}
 a:active {
   color: white;
   text-decoration: none;
-  }
-.main{
+}
+.main {
   position: relative;
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0.123), rgba(255,255,255,0.123)), url('http://i.imgur.com/RyXAGXk.jpg?1');
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.123), rgba(255, 255, 255, 0.123)), url('http://i.imgur.com/RyXAGXk.jpg?1');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
   height: 700px !important;
-  width:100%;
-  padding-bottom:40%;
+  width: 100%;
+  padding-bottom: 40%;
   padding-top: 0;
   margin: 0;
   //opacity: 0.8;
-  }
-
+}
 .location {
   float: right;
-  }
+}
 .logo {
   width: 70%;
   margin: 0 auto;
   background: url('http://i.imgur.com/kN3fdT2.png?1') no-repeat center center;
   background-size: contain;
-  position:relative;
-  height:700px;
-  padding-bottom:42.85714%;
+  position: relative;
+  height: 700px;
+  padding-bottom: 42.85714%;
   padding-top: 0;
   /*display: none;*/
-  }
- .logo1 {
-  width: 70%!important;
-  margin: 0 auto;
+}
+.banner {
+  width: 90%!important;
+  margin-left: 5%;
   background-size: contain;
-  position:absolute;
-  padding-top: 2.5%;
-  /*display:none;*/
+  position: absolute;
+  padding-top: 5%;
   z-index: 2;
-  margin-left:15%;
-  }
+  display: none;
+}
 .opengarage {
   /*position: */
-  }
+}
 .names {
   font-family: "Archivo Narrow";
   text-align: center;
   font-size: 5em;
   margin-bottom: 0;
-  }
+}
 .loc {
   font-family: "Archivo Narrow";
   text-align: center;
-  color: rgb(153,101,21);
+  color: rgb(153, 101, 21);
   font-size: 4em;
   margin-bottom: 0;
   font-weight: bolder;
-  }
+}
 .aboutdesc {
   /*float: left;*/
   /*width: 100%;*/
@@ -114,7 +108,7 @@ a:active {
   font-size: 1.2em;
   text-align: justify;
   /*margin-left:20%;*/
-  }
+}
 .kegs {
   position: relative;
   background-size: contain;
@@ -122,57 +116,55 @@ a:active {
   width: 100%;
   outline: 1px solid black;
   /*padding-bottom:41.67391% !important;*/
-  margin-top:5%;
-  opacity:0.6;
+  margin-top: 5%;
+  opacity: 0.6;
   box-shadow: 5px 10px 25px;
-  }
+}
 .brewline1 {
   font-family: archivo narrow;
-  font-weight:bold;
+  font-weight: bold;
   padding: 0;
   margin-top: 5%;
   letter-spacing: 5px;
   text-decoration: overline;
   font-size: 35px;
   text-align: center;
-  }
+}
 .brewline {
   font-family: archivo narrow;
-  font-weight:bold;
+  font-weight: bold;
   padding: 0;
   margin: 0;
   letter-spacing: 5px;
   /*text-decoration: underline;*/
   font-size: 60px;
-  margin:0;
+  margin: 0;
   padding: 0;
   text-align: center;
-  }
+}
 .style {
-  margin-top:5%;
+  margin-top: 5%;
   font-family: "Archivo Narrow";
   font-size: 3em;
   margin-left: 5%;
-  }
+}
 .details {
   margin-left: 5%;
-  color: rgb(153,101,21);
+  color: rgb(153, 101, 21);
   font-family: "Archivo Narrow";
-  }
+}
 .descriptions {
-  margin-top:5%;
+  margin-top: 5%;
   font-family: Open Sans Condensed;
   font-size: 1.3em;
   /*margin-left: 20%;*/
-  }
-
+}
 .beer-image--tripel {
   background: url('http://i.imgur.com/SWDSouD.png?1');
   background-repeat: no-repeat;
   /*background-size: contain;*/
-  }
-.labels {
 }
+.labels {}
 .c-email {
   font-family: "Archivo Narrow";
   font-size: 3em;
@@ -181,86 +173,118 @@ a:active {
 p.email.col-md-6 {
   font-family: "Archivo Narrow";
   font-size: 2em;
-	color: black;
-	text-align: center;
-  }
+  color: black;
+  text-align: center;
+}
+
+
+/*////////////////// M E D I A   Q U E R I E S ////////////////////*/
 @media all and (max-width: 991px) and (min-width: 701px) {
-	p.aboutdesc {
-		margin-left: 25%;
-	}
-	h3.style {
-		text-align: center;
-		margin-left: 0;
-		}
-	h5.details {
-			text-align: center;
-			margin-left: 0;
-	}
-	p.descriptions {
-	  margin-left: 25%;
-	  text-align: justify;
-	}
-	img.img-responsive.labels {
-		margin-left: 50%;
-	}
+  .banner {
+    width: 90%!important;
+    margin-left: 5%;
+    background-size: contain;
+    position: absolute;
+    padding-top: 10%;
+    z-index: 2;
+    display: none;
+  }
+  p.aboutdesc {
+    margin-left: 25%;
+  }
+  h3.style {
+    text-align: center;
+    margin-left: 0;
+  }
+  h5.details {
+    text-align: center;
+    margin-left: 0;
+  }
+  p.descriptions {
+    margin-left: 25%;
+    text-align: justify;
+  }
+  img.img-responsive.labels {
+    margin-left: 50%;
+  }
 }
+
+
 @media all and (max-width: 700px) and (min-width: 601px) {
-	p.aboutdesc {
-		margin-left: 25%;
-	}
-	h3.style {
-		text-align: center;
-		margin-left: 0;
-		}
-	h5.details {
-			text-align: center;
-			margin-left: 0;
-			font-size: 2em;
-	}
-	p.descriptions {
-		margin-left: 25%;
-		text-align: justify;
-	}
-	img.img-responsive.labels {
-		margin-left: 50%;
-	}
+  .banner {
+    width: 90%!important;
+    margin-left: 5%;
+    background-size: contain;
+    position: absolute;
+    padding-top: 15%;
+    z-index: 2;
+    display: none;
+  }
+  p.aboutdesc {
+    margin-left: 25%;
+  }
+  h3.style {
+    text-align: center;
+    margin-left: 0;
+  }
+  h5.details {
+    text-align: center;
+    margin-left: 0;
+    font-size: 2em;
+  }
+  p.descriptions {
+    margin-left: 25%;
+    text-align: justify;
+  }
+  img.img-responsive.labels {
+    margin-left: 50%;
+  }
 }
+
 
 @media all and (max-width: 600px) {
-.names {
-  text-align: center;
-}
-p.aboutdesc {
-  width: 100%;
-  padding-left: 0px;
-  padding-top: 0%;
-  font-family: "Archivo Narrow";
-  font-size: 1.1em;
-  text-align: justify;
-  margin-left:12%;
-}
-p.descriptions {
-  margin-top:5%;
-  font-family: Open Sans Condensed;
-  font-size: 1.3em;
-  margin-left: 25%;
-  margin-bottom: 5%;
-}
-img.img-responsive.labels {
-  margin-left: 55% !important;
-}
-h3.style {
-  text-align: center !important;
-}
-h5.details{
-  text-align: center;
-  font-size: 2em;
-}
-h1.brewline1{
-  margin-left:5%;
-}
-h1.brewline {
-  margin-left: 5%;
-}
-
+  .banner {
+    width: 90%!important;
+    margin-left: 5%;
+    background-size: contain;
+    position: absolute;
+    padding-top: 23%;
+    z-index: 2;
+    display: none;
+  }
+  .names {
+    text-align: center;
+  }
+  p.aboutdesc {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 0%;
+    font-family: "Archivo Narrow";
+    font-size: 1.1em;
+    text-align: justify;
+    margin-left: 12%;
+  }
+  p.descriptions {
+    margin-top: 5%;
+    font-family: Open Sans Condensed;
+    font-size: 1.3em;
+    margin-left: 25%;
+    margin-bottom: 5%;
+  }
+  img.img-responsive.labels {
+    margin-left: 55% !important;
+  }
+  h3.style {
+    text-align: center !important;
+  }
+  h5.details {
+    text-align: center;
+    font-size: 2em;
+  }
+  h1.brewline1 {
+    margin-left: 5%;
+  }
+  h1.brewline {
+    margin-left: 5%;
+  }
 }
