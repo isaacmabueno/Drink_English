@@ -4,20 +4,19 @@
 	margin-bottom: 0;
 	min-height: 50px;
 }
-
-
+.navbar-fixed-bottom {
+  position: absolute !important;
+}
 .nav li {
 	display: inline;
 	color: white;
 }
-
 .navbar-inverse .navbar-nav > li > a {
 	color: #ffffff;
 	font-family: Anton;
 	font-size: 1.2em;
 	font-weight: 300;
 }
-
 .navbar-inverse .navbar-nav li a:hover {
 	background-color: #444444;
 	transition: 0.7s all linear;
@@ -47,14 +46,14 @@ a {
   color: white;
   text-decoration: none;
   }
-  .hero{
+  .main{
     position: relative;
     background-image: linear-gradient(to bottom, rgba(255,255,255,0.123), rgba(255,255,255,0.123)), url('http://i.imgur.com/RyXAGXk.jpg?1');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    height:700px;
+    height: 100% !important;
     width:100%;
     padding-bottom:40%;
     padding-top: 0;
@@ -77,33 +76,116 @@ a {
     /*display: none;*/
   }
   .logo1 {
-  width: 70%;
+  width: 70%!important;
   margin: 0 auto;
-  background: url('http://i.imgur.com/2cSoC7D.png?1') no-repeat center center;
   background-size: contain;
-  position:relative;
-  height:700px;
-  padding-bottom:42.85714%;
-  padding-top: 0;
+  position:absolute;
+  padding-top: 2.5%;
   /*display:none;*/
-  z-index: 10000;
+  z-index: 2;
+  margin-left:15%;
 }
 .names {
   font-family: "Archivo Narrow";
   text-align: center;
-  font-size: 5.5vw;
+  font-size: 5em;
   margin-bottom: 0;
 }
 .loc {
   font-family: "Archivo Narrow";
   text-align: center;
   color: rgb(153,101,21);
-  font-size: 4vw;
+  font-size: 4em;
   margin-bottom: 0;
   font-weight: bolder;
 }
+.aboutdesc {
+  float: left;
+  /*width: 100%;*/
+  padding-left: 0px;
+  padding-top: 0%;
+  font-family: "Archivo Narrow";
+  font-size: 1.2em;
+  text-align: justify;
+}
+.kegs {
+  position: relative;
+  background-size: contain;
+  /*height: 340px !important;*/
+  width: 100%;
+  outline: 1px solid black;
+  /*padding-bottom:41.67391% !important;*/
+  margin-top:5%;
+  opacity:0.6;
+  box-shadow: 5px 10px 25px;
+}
+.brewline1 {
+  font-family: archivo narrow;
+  font-weight:bold;
+  padding: 0;
+  margin-top: 5%;
+  letter-spacing: 5px;
+  text-decoration: overline;
+  font-size: 35px;
+  text-align: center;
+}
+.brewline {
+  font-family: archivo narrow;
+  font-weight:bold;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 5px;
+  /*text-decoration: underline;*/
+  font-size: 60px;
+  margin:0;
+  padding: 0;
+  text-align: center;
+}
+.style {
+  margin-top:5%;
+  font-family: "Archivo Narrow";
+  font-size: 3em;
+  margin-left: 5%;
+}
+.details {
+  margin-left: 5%;
+  color: rgb(153,101,21);
+  font-family: "Archivo Narrow";
+}
+.descriptions {
+  margin-top:5%;
+  font-family: Open Sans Condensed;
+  font-size: 1.3em;
+}
+.beer-image--tripel {
+background: url('http://i.imgur.com/SWDSouD.png?1');
+  background-repeat: no-repeat;
+  /*background-size: contain;*/
+}
+.trippel {
+}
+.c-email {
+  font-family: "Archivo Narrow";
+  font-size: 3em;
+  text-align: center;
+}
+qi {
+  font-family: "Archivo Narrow";
+  font-size: 2em;
+}
+
+
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
   .names {
+    text-align: center;
+  }
+  .aboutdesc {
+    float: left;
+    width: 30%;
+    padding-left: 0px;
+    padding-top: 0%;
+    font-family: "Archivo Narrow";
+    font-size: 1.1em;
     text-align: center;
   }
 }
