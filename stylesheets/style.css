@@ -223,8 +223,8 @@ p.email.col-md-6 {
 }.about img{
   margin-top: 5% !important;
 }
-.footer {
-	border: 1px solid black;
+footer {
+	border: 1px solid black !important;
 }
 
 /*////////////////// M E D I A   Q U E R I E S ////////////////////*/
