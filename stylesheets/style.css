@@ -34,6 +34,7 @@ a.links{
 a {
   color: black;
   text-decoration: none;
+	/*padding:5%;*/
 }
 a:visted {
   color: black;
@@ -182,13 +183,13 @@ a:active {
 	.carousel-control.left {
 	background-image: linear-gradient(to right,rgba(253, 249, 243, 1) 0,rgba(253, 249, 243, 1) 100%);
 	}
-p.c-email.col-md-6 {
+.c-email {
   font-family: "Archivo Narrow";
   font-size: 3em;
   text-align: center;
-	margin-top: 5%;
+	/*margin-top: 5%;*/
 }
-p.email.col-md-6 {
+p.email {
   font-family: "Archivo Narrow";
   font-size: 2em;
   color: black;
@@ -197,6 +198,7 @@ p.email.col-md-6 {
 .me {
 	float: right;
 	margin-right: 5%;
+	font-family: archivo narrow;
 }
 .social-media{
 	margin-top:15%;
