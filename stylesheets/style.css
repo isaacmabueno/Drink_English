@@ -173,7 +173,7 @@ a:active {
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-		width: 70%;
+		width: 60%;
 		margin: auto;
 }
 .carousel-control.right {
@@ -182,7 +182,6 @@ a:active {
 	.carousel-control.left {
 	background-image: linear-gradient(to right,rgba(253, 249, 243, 1) 0,rgba(253, 249, 243, 1) 100%);
 	}
-}
 p.c-email.col-md-6 {
   font-family: "Archivo Narrow";
   font-size: 3em;
