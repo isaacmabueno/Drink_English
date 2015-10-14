@@ -59,12 +59,11 @@ a:active {
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  height: 700px !important;
+  height: 700px;
   width: 100%;
   padding-bottom: 40%;
   padding-top: 0;
   margin: 0;
-  //opacity: 0.8;
 }
 .location {
   float: right;
@@ -90,7 +89,7 @@ a:active {
   display: none;
 }
 .opengarage {
-  /*position: */
+  width: 100%;
 }
 .names {
   font-family: "Archivo Narrow";
@@ -293,12 +292,17 @@ footer {
 
 
 @media all and (max-width: 600px) {
-  .banner {
+	.main {
+		height: 500px;
+		width: 100%;
+		background: #FDF9F3;
+	}
+	.banner {
     width: 90%!important;
     margin-left: 5%;
     background-size: contain;
     position: absolute;
-    padding-top: 23%;
+    padding-top: 20%;
     z-index: 2;
     display: none;
   }
