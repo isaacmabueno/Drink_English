@@ -240,6 +240,10 @@ footer {
 
 /*////////////////// M E D I A   Q U E R I E S ////////////////////*/
 @media all and (max-width: 991px) and (min-width: 701px) {
+	body {
+		background-color: rgb(253,249,243);
+	   overflow-x: hidden;
+	}
   .banner {
     width: 90%!important;
     margin-left: 5%;
@@ -271,6 +275,10 @@ footer {
 
 
 @media all and (max-width: 700px) and (min-width: 601px) {
+	body {
+		background-color: rgb(253,249,243);
+	   overflow-x: hidden;
+	}
   .banner {
     width: 90%!important;
     margin-left: 5%;
@@ -303,6 +311,10 @@ footer {
 
 
 @media all and (max-width: 600px) {
+	body {
+		background-color: rgb(253,249,243);
+	   overflow-x: hidden;
+	}
 	.main {
 		height: 500px;
 		width: 100%;
@@ -337,7 +349,7 @@ footer {
     margin-bottom: 5%;
   }
   img.img-responsive.labels {
-    margin-left: 55% !important;
+    margin-left: 29%;
   }
   h3.style {
     text-align: center !important;
