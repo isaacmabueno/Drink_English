@@ -1,6 +1,9 @@
 body {
 	background-color: rgb(253,249,243);
-   overflow-x: hidden;
+   overflow-x: hidden !important;
+}
+.dropdown-backdrop{
+position: static;
 }
 .navbar, .navbar-inverse {
   border-radius: 0;
@@ -240,128 +243,156 @@ footer {
 
 /*////////////////// M E D I A   Q U E R I E S ////////////////////*/
 @media all and (max-width: 991px) and (min-width: 701px) {
-	body {
-		background-color: rgb(253,249,243);
-	   overflow-x: hidden;
-	}
-  .banner {
-    width: 90%!important;
-    margin-left: 5%;
-    background-size: contain;
-    position: absolute;
-    padding-top: 10%;
-    z-index: 2;
-    display: none;
-  }
-  p.aboutdesc {
-    margin-left: 25%;
-  }
-  h3.style {
-    text-align: center;
-    margin-left: 0;
-  }
-  h5.details {
-    text-align: center;
-    margin-left: 0;
-  }
-  p.descriptions {
-    margin-left: 25%;
-    text-align: justify;
-  }
-  img.img-responsive.labels {
-    margin-left: 50%;
-  }
+body {
+	background-color: rgb(253,249,243);
+   overflow-x: hidden !important;
+}
+.banner {
+  width: 90%!important;
+  margin-left: 5%;
+  background-size: contain;
+  position: absolute;
+  padding-top: 10%;
+  z-index: 2;
+  display: none;
+}
+p.aboutdesc {
+  margin-left: 25%;
+}
+h3.style {
+  text-align: center;
+  margin-left: 0;
+}
+h5.details {
+  text-align: center;
+  margin-left: 0;
+}
+p.descriptions {
+  margin-left: 25%;
+  text-align: justify;
+}
+img.img-responsive.labels {
+  margin-left: 27%;
+}
 }
 
 
 @media all and (max-width: 700px) and (min-width: 601px) {
-	body {
-		background-color: rgb(253,249,243);
-	   overflow-x: hidden;
-	}
-  .banner {
-    width: 90%!important;
-    margin-left: 5%;
-    background-size: contain;
-    position: absolute;
-    padding-top: 15%;
-    z-index: 2;
-    display: none;
-  }
-  p.aboutdesc {
-    margin-left: 25%;
-  }
-  h3.style {
-    text-align: center;
-    margin-left: 0;
-  }
-  h5.details {
-    text-align: center;
-    margin-left: 0;
-    font-size: 2em;
-  }
-  p.descriptions {
-    margin-left: 25%;
-    text-align: justify;
-  }
-  img.img-responsive.labels {
-    margin-left: 50%;
-  }
+.navbar .nav > li {
+  z-index: 1001;
+}
+.navbar-collapse {
+  text-align:center;
+}
+.navbar-nav {
+    display:inline-block;
+    float:none;
+}
+body {
+	background-color: rgb(253,249,243);
+   overflow-x: hidden !important;
+}
+.banner {
+  width: 90%!important;
+  margin-left: 5%;
+  background-size: contain;
+  position: absolute;
+  padding-top: 15%;
+  z-index: 2;
+  display: none;
+}
+p.aboutdesc {
+  margin-left: 25%;
+}
+h3.style {
+  text-align: center;
+  margin-left: 0;
+}
+h5.details {
+  text-align: center;
+  margin-left: 0;
+  font-size: 2em;
+}
+p.descriptions {
+  margin-left: 25%;
+  text-align: justify;
+}
+img.img-responsive.labels {
+  margin-left: 27%;
+}
+}
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+img.img-responsive.labels {
+  margin-left: 27%;
+}
 }
 
-
 @media all and (max-width: 600px) {
-	body {
-		background-color: rgb(253,249,243);
-	   overflow-x: hidden;
-	}
-	.main {
-		height: 500px;
-		width: 100%;
-		background: #FDF9F3;
-	}
-	.banner {
-    width: 90%!important;
-    margin-left: 5%;
-    background-size: contain;
-    position: absolute;
-    padding-top: 20%;
-    z-index: 2;
-    display: none;
-  }
-  .names {
-    text-align: center;
-  }
-  p.aboutdesc {
-    width: 100%;
-    padding-left: 0px;
-    padding-top: 0%;
-    font-family: "Archivo Narrow";
-    font-size: 1.1em;
-    text-align: justify;
-    margin-left: 12%;
-  }
-  p.descriptions {
-    margin-top: 5%;
-    font-family: Open Sans Condensed;
-    font-size: 1.3em;
-    margin-left: 25%;
-    margin-bottom: 5%;
-  }
-  img.img-responsive.labels {
-    margin-left: 29%;
-  }
-  h3.style {
-    text-align: center !important;
-  }
-  h5.details {
-    text-align: center;
-    font-size: 2em;
-  }
-  h1.brewline1 {
-    margin-left: 5%;
-  }
-  h1.brewline {
-    margin-left: 5%;
-  }
+	.navbar-collapse {
+  text-align:center;
+}
+.navbar-nav {
+    display:inline-block;
+    float:none;
+}
+body {
+	background-color: rgb(253,249,243);
+  overflow-x: hidden !important;
+}
+.navbar .nav > li {
+	z-index: 1001;
+}
+.main {
+	height: 500px;
+	width: 100%;
+	background: #FDF9F3;
+}
+.banner {
+  width: 90%!important;
+  margin-left: 5%;
+  background-size: contain;
+  position: absolute;
+  padding-top: 20%;
+  z-index: 2;
+  display: none;
+}
+.names {
+  text-align: center;
+}
+p.aboutdesc {
+  width: 100%;
+  padding-left: 0px;
+  padding-top: 0%;
+  font-family: "Archivo Narrow";
+  font-size: 1.1em;
+  text-align: justify;
+  margin-left: 12%;
+}
+p.descriptions {
+  margin-top: 5%;
+  font-family: Open Sans Condensed;
+  font-size: 1.3em;
+  margin-left: 25%;
+  margin-bottom: 5%;
+}
+img.img-responsive.labels {
+  margin-left: 29%;
+}
+h3.style {
+  text-align: center !important;
+}
+h5.details {
+  text-align: center;
+  font-size: 2em;
+}
+h1.brewline1 {
+  margin-left: 5%;
+}
+h1.brewline {
+  margin-left: 5%;
+}
 }
