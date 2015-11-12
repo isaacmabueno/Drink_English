@@ -6,3 +6,8 @@ $(document).ready(function () {
     $(".navbar-collapse").collapse('hide');
   });
 });
+
+
+// GET
+// https://www.googleapis.com/blogger/v2/blogs/blogId/posts
+// blogId?key=APIKEY
