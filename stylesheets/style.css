@@ -12,7 +12,7 @@ position: static;
   min-height: 50px;
 }
 nav.navbar.navbar-inverse.navbar-fixed-top {
-  background-color: rgba(0, 0, 0, .87);
+  background-color: rgba(11, 63, 44, 0.95);
 }
 .navbar-fixed-bottom {
   position: absolute !important;
@@ -23,7 +23,7 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #ffffff;
-  font-family: Anton;
+  font-family: Oswald;
   font-size: 1.2em;
   font-weight: 300;
 }
@@ -87,6 +87,8 @@ a:active {
 }
 .banner {
   width: 90%!important;
+	/*-webkit-filter: opacity(90%);*/
+  /*filter: opacity(90%);*/
   margin-left: 5%;
   background-size: contain;
   position: absolute;
