@@ -193,7 +193,9 @@ a:active {
   margin-top: 5%;
   font-family: Open Sans Condensed;
   font-size: 1.3em;
-  /*margin-left: 20%;*/
+}
+.content-secondary li {
+	list-style-type: none;
 }
 .beer-image--tripel {
   background: url('http://i.imgur.com/SWDSouD.png?1');
@@ -258,6 +260,20 @@ p.email {
 }
 footer {
 	border: 1px solid black !important;
+}
+.wrapperpress {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: auto;
+	width: 60%;
+}
+.login-head-font ul li {
+	list-style-type: none;
+  list-style-position:inside;
+  margin:0;
+  padding:0;
 }
 
 /*////////////////// M E D I A   Q U E R I E S ////////////////////*/
