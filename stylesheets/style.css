@@ -181,8 +181,10 @@ a:active {
   margin-top: 5%;
   font-family: "Archivo Narrow";
   font-size: 3em;
-  margin-left: 5%;
 	list-style-type: none;
+}
+#top {
+	padding-top:100px;
 }
 .details {
   margin-left: 5%;
@@ -267,13 +269,16 @@ footer {
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: auto;
-	width: 60%;
+	width: 75%;
 }
-.login-head-font ul li {
-	list-style-type: none;
-  list-style-position:inside;
-  margin:0;
-  padding:0;
+
+.wrap {
+	width: 85%;
+	margin: auto;
+	background-color: white;
+	border-top: 1px solid #1F3112;
+	border-left: 1px solid #1F3112;
+	border-right: 1px solid #1F3112;
 }
 
 /*////////////////// M E D I A   Q U E R I E S ////////////////////*/
