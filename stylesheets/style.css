@@ -169,7 +169,7 @@ a:active {
   font-family: archivo narrow;
   font-weight: bold;
   letter-spacing: 2px;
-  font-size: 60px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
   text-align: center !important;
@@ -180,8 +180,14 @@ a:active {
 .style {
   margin-top: 5%;
   font-family: "Archivo Narrow";
-  font-size: 3em;
+  font-size: 2em;
 	list-style-type: none;
+}
+div.box h1{
+	border: 1px solid black;
+	display: block;
+	margin-right: 80%;
+	justify-content: center;
 }
 #top {
 	padding-top:100px;
@@ -273,12 +279,15 @@ footer {
 }
 
 .wrap {
-	width: 85%;
+	width: 75%;
 	margin: auto;
-	background-color: white;
-	border-top: 1px solid #1F3112;
-	border-left: 1px solid #1F3112;
-	border-right: 1px solid #1F3112;
+	background-color: #E8E2D6;
+	border: 1px solid #1F3112;
+}
+.pressdesc {
+	margin-top: 10%;
+	font-family: Open Sans Condensed;
+	font-size: 2.3em;
 }
 
 /*////////////////// M E D I A   Q U E R I E S ////////////////////*/
