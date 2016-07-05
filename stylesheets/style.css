@@ -187,7 +187,8 @@ div.box h1{
 	border: 1px solid black;
 	display: block;
 	margin-right: 80%;
-	justify-content: center;
+	text-align: center;
+	vertical-align: middle;
 }
 #top {
 	padding-top:100px;
