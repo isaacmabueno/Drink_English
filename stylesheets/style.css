@@ -194,7 +194,7 @@ div.box h1{
 	padding-top:100px;
 }
 .details {
-  margin-left: 5%;
+	text-align: center;
   color: rgb(153, 101, 21);
   font-family: "Archivo Narrow";
 }
@@ -318,11 +318,9 @@ h5.details {
   margin-left: 0;
 }
 p.descriptions {
-  margin-left: 25%;
   text-align: justify;
 }
 img.img-responsive.labels {
-  margin-left: 27%;
 }
 }
 
@@ -364,11 +362,10 @@ h5.details {
   font-size: 2em;
 }
 p.descriptions {
-  margin-left: 25%;
-  text-align: justify;
+  /*margin-left: 25%;*/
+  text-align: center;
 }
 img.img-responsive.labels {
-  margin-left: 27%;
 }
 }
 @media only screen
@@ -382,6 +379,11 @@ img.img-responsive.labels {
 }
 
 @media all and (max-width: 600px) {
+	.format {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
 	.navbar-collapse {
   text-align:center;
 }
@@ -426,11 +428,16 @@ p.descriptions {
   margin-top: 5%;
   font-family: Open Sans Condensed;
   font-size: 1.3em;
-  margin-left: 25%;
+  /*margin-left: 25%;*/
   margin-bottom: 5%;
 }
+img.img-responsive-main {
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
 img.img-responsive.labels {
-  margin-left: 29%;
+
 }
 h3.style {
   text-align: center !important;
