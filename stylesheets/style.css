@@ -314,13 +314,25 @@ h3.style {
   margin-left: 0;
 }
 h5.details {
-  text-align: center;
-  margin-left: 0;
+	text-align: center;
+	margin-left: 0;
+	font-size: 1.2em;
 }
 p.descriptions {
-  text-align: justify;
+	margin-top: 5%;
+	font-family: Open Sans Condensed;
+	font-size: 1.3em;
+	margin-bottom: 5%;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
 }
 img.img-responsive.labels {
+	display: block;
+	max-width: 40%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 }
 
@@ -333,12 +345,12 @@ img.img-responsive.labels {
   text-align:center;
 }
 .navbar-nav {
-    display:inline-block;
-    float:none;
+  display:inline-block;
+  float:none;
 }
 body {
 	background-color: rgb(253,249,243);
-   overflow-x: hidden !important;
+  overflow-x: hidden !important;
 }
 .banner {
   width: 90%!important;
@@ -359,13 +371,23 @@ h3.style {
 h5.details {
   text-align: center;
   margin-left: 0;
-  font-size: 2em;
+  font-size: 1.2em;
 }
 p.descriptions {
-  /*margin-left: 25%;*/
+	margin-top: 5%;
+	font-family: Open Sans Condensed;
+	font-size: 1.3em;
+	margin-bottom: 5%;
+	padding-left: 40px;
+	padding-right: 40px;
   text-align: center;
 }
 img.img-responsive.labels {
+	display: block;
+	max-width: 50%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 }
 @media only screen
@@ -373,9 +395,6 @@ img.img-responsive.labels {
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-img.img-responsive.labels {
-  margin-left: 27%;
-}
 }
 
 @media all and (max-width: 600px) {
@@ -425,11 +444,12 @@ p.aboutdesc {
   margin-left: 12%;
 }
 p.descriptions {
-  margin-top: 5%;
+	margin-top: 5%;
   font-family: Open Sans Condensed;
   font-size: 1.3em;
-  /*margin-left: 25%;*/
   margin-bottom: 5%;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 img.img-responsive-main {
 	margin-left: auto;
@@ -437,14 +457,18 @@ img.img-responsive-main {
 	display:block;
 }
 img.img-responsive.labels {
-
+	display: block;
+	max-width: 65%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 h3.style {
   text-align: center !important;
 }
 h5.details {
   text-align: center;
-  font-size: 2em;
+  font-size: 1em;
 }
 h1.brewline1 {
   margin-left: 5%;
