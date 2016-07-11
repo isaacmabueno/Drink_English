@@ -102,8 +102,9 @@ a:active {
 .names {
   font-family: "Archivo Narrow";
   text-align: center;
-  font-size: 5em;
+  font-size: 3.5em;
   margin-bottom: 0;
+	color: rgb(153, 101, 21);
 }
 .loc {
   font-family: "Archivo Narrow";
