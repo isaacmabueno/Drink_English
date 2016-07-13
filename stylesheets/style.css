@@ -278,10 +278,11 @@ footer {
 }
 
 .wrap {
-	width: 75%;
+	width: 80%;
 	margin: auto;
 	background-color: #E8E2D6;
 	border: 1px solid #1F3112;
+	margin-bottom: 2%;
 }
 .pressdesc {
 	margin-top: 10%;
