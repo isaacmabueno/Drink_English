@@ -101,18 +101,15 @@ a:active {
 }
 .names {
   font-family: "Archivo Narrow";
-  text-align: center;
   font-size: 3.5em;
   margin-bottom: 0;
 	color: rgb(153, 101, 21);
 }
 .loc {
   font-family: "Archivo Narrow";
-  text-align: center;
-  color: rgb(153, 101, 21);
+
   font-size: 4em;
   margin-bottom: 0;
-  font-weight: bolder;
 }
 .aboutdesc {
   /*float: left;*/
