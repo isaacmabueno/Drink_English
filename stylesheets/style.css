@@ -107,7 +107,11 @@ a:active {
 }
 .loc {
   font-family: "Archivo Narrow";
-
+  font-size: 4em;
+  margin-bottom: 0;
+}
+.loc2 {
+  font-family: "Archivo Narrow";
   font-size: 4em;
   margin-bottom: 0;
 }
@@ -226,13 +230,13 @@ div.box h1{
 	}
 .c-email {
   font-family: "Archivo Narrow";
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
 	/*margin-top: 5%;*/
 }
 p.email {
   font-family: "Archivo Narrow";
-  font-size: 2em;
+  font-size: 1.7em;
   color: black;
   text-align: center;
 }
@@ -242,7 +246,7 @@ p.email {
 	font-family: archivo narrow;
 }
 .social-media{
-	margin-top:15%;
+	margin-top:8%;
 	text-align: center !important;
 }
 .instagram {
@@ -262,17 +266,14 @@ p.email {
   max-height: 33px !important;
   width: 30px !important;
   height: 30px !important;
-}.about img{
+}
+.about img{
   margin-top: 5% !important;
 }
 footer {
 	border: 1px solid black !important;
 }
 .wrapperpress {
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-	padding-left: 15px;
-	padding-right: 15px;
 	margin: auto;
 	width: 75%;
 }
@@ -282,12 +283,15 @@ footer {
 	margin: auto;
 	background-color: #E8E2D6;
 	border: 1px solid #1F3112;
+	padding-bottom: 5%;
 	margin-bottom: 2%;
 }
+.spacing {
+	padding-bottom: 5%;
+}
 .pressdesc {
-	margin-top: 10%;
 	font-family: Open Sans Condensed;
-	font-size: 2.3em;
+	font-size: 2em;
 }
 
 /*////////////////// M E D I A   Q U E R I E S ////////////////////*/
@@ -337,6 +341,17 @@ img.img-responsive.labels {
 
 
 @media all and (max-width: 700px) and (min-width: 601px) {
+	.c-email {
+	  font-family: "Archivo Narrow";
+	  font-size: 1.8em;
+	  text-align: center;
+	}
+	.email a{
+		font-family: "Archivo Narrow";
+		font-size: 0.7em;
+		color: black;
+		text-align: center;
+	}
 .navbar .nav > li {
   z-index: 1001;
 }
@@ -397,17 +412,28 @@ img.img-responsive.labels {
 }
 
 @media all and (max-width: 600px) {
-	.format {
-		margin-left: auto;
-		margin-right: auto;
-		display: block;
-	}
-	.navbar-collapse {
-  text-align:center;
+.c-email {
+  font-family: "Archivo Narrow";
+  font-size: 1.5em;
+  text-align: center;
+}
+.email a{
+	font-family: "Archivo Narrow";
+	font-size: 0.6em;
+	color: black;
+	text-align: center;
+}
+.format {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.navbar-collapse {
+	text-align:center;
 }
 .navbar-nav {
-    display:inline-block;
-    float:none;
+  display:inline-block;
+  float:none;
 }
 body {
 	background-color: rgb(253,249,243);
