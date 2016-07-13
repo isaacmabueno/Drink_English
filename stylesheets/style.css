@@ -59,7 +59,7 @@ a:active {
 }
 .main {
   position: relative;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.123), rgba(255, 255, 255, 0.123)), url('http://i.imgur.com/RyXAGXk.jpg?1');
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.123), rgba(255, 255, 255, 0.123)), url('../images/bikemain.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -76,7 +76,6 @@ a:active {
 .logo {
   width: 70%;
   margin: 0 auto;
-  background: url('http://i.imgur.com/kN3fdT2.png?1') no-repeat center center;
   background-size: contain;
   position: relative;
   height: 700px;
@@ -208,10 +207,7 @@ div.box h1{
 .content-secondary li {
 	list-style-type: none;
 }
-.beer-image--tripel {
-  background: url('http://i.imgur.com/SWDSouD.png?1');
-  background-repeat: no-repeat;
-  /*background-size: contain;*/
+background-size: contain;*/
 }
 .wrapper li,h3 {
 	text-align: center;
