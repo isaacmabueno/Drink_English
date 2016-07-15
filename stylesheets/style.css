@@ -104,25 +104,26 @@ a:active {
   margin-bottom: 0;
 	color: rgb(153, 101, 21);
 }
+.top-spacing {
+	margin-top: 3%;
+}
 .loc {
   font-family: "Archivo Narrow";
-  font-size: 4em;
+  font-size: 3.2em;
   margin-bottom: 0;
 }
 .loc2 {
   font-family: "Archivo Narrow";
-  font-size: 4em;
+  font-size: 3.2em;
   margin-bottom: 0;
+	color: rgb(153, 101, 21);
 }
 .aboutdesc {
-  /*float: left;*/
-  /*width: 100%;*/
   padding-left: 0px;
   padding-top: 0%;
   font-family: "Archivo Narrow";
   font-size: 1.2em;
   text-align: justify;
-  /*margin-left:20%;*/
 }
 .btn-group-justified>.btn-group .btn {
     width: 33%;
@@ -139,7 +140,7 @@ a:active {
   /*height: 340px !important;*/
   width: 100%;
   outline: 1px solid black;
-  margin-top: 5%;
+  margin-top: 3%;
   opacity: 0.6;
   box-shadow: 5px 10px 25px;
 }
@@ -156,12 +157,8 @@ a:active {
 .brewline {
   font-family: archivo narrow;
   font-weight: bold;
-  padding: 0;
-  margin: 0;
   letter-spacing: 5px;
   font-size: 60px;
-  margin: 0;
-  padding: 0;
   text-align: center;
 	margin-bottom: 40px;
 }
