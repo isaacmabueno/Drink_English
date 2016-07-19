@@ -137,12 +137,15 @@ a:active {
 .kegs {
   position: relative;
   background-size: contain;
-  /*height: 340px !important;*/
   width: 100%;
-  outline: 1px solid black;
+  /*outline: 1px solid black;*/
   margin-top: 3%;
-  opacity: 0.6;
+  opacity: 0.8;
   box-shadow: 5px 10px 25px;
+}
+.height-img {
+	height: 650px;
+	width: 100%;
 }
 .brewline1 {
   font-family: archivo narrow;
@@ -273,7 +276,7 @@ footer {
 .wrap {
 	width: 80%;
 	margin: auto;
-	background-color: #E8E2D6;
+	background-color: white;
 	border: 1px solid #1F3112;
 	padding-bottom: 5%;
 	margin-bottom: 2%;
@@ -288,9 +291,13 @@ footer {
 
 /*////////////////// M E D I A   Q U E R I E S ////////////////////*/
 @media all and (max-width: 991px) and (min-width: 701px) {
+	.height-img {
+	height: 450px;
+	width: 100%;
+	}
 body {
 	background-color: rgb(253,249,243);
-   overflow-x: hidden !important;
+  overflow-x: hidden !important;
 }
 .banner {
   width: 90%!important;
@@ -333,6 +340,10 @@ img.img-responsive.labels {
 
 
 @media all and (max-width: 700px) and (min-width: 601px) {
+	.height-img {
+		height: 400px;
+		width: 100%;
+	}
 	.c-email {
 	  font-family: "Archivo Narrow";
 	  font-size: 1.8em;
@@ -492,5 +503,9 @@ h1.brewline1 {
 }
 h1.brewline {
   margin-left: 5%;
+}
+.height-img {
+	height: 350px;
+	width: 100%;
 }
 }
