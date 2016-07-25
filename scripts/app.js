@@ -7,6 +7,14 @@ $(document).ready(function () {
   });
 });
 
+  $(document).ready(function(){
+    $('.img-zoom').hover(function() {
+        $(this).addClass('transition');
+
+    }, function() {
+        $(this).removeClass('transition');
+    });
+  });
 
 // $(function () {
 //     var menu_sub = $('.menu-sub');

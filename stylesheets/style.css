@@ -289,6 +289,21 @@ footer {
 	font-size: 2em;
 }
 
+.img-zoom {
+    width: 310px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+.transition {
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(1.1);
+}
+
 /*////////////////// M E D I A   Q U E R I E S ////////////////////*/
 @media all and (max-width: 991px) and (min-width: 701px) {
 	.height-img {
