@@ -2,10 +2,23 @@ body {
 	background-color: rgb(253,249,243);
 	overflow-x: hidden !important;
 }
-#mc_embed_signup{
+#mc_embed_signup {
 	background:#fff;
 	clear:left;
 	font:14px Helvetica,Arial,sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+#mc_embed_signup .button {
+	background: rgba(11, 63, 44, 0.95);
+	font-family: Oswald;
+}
+.mailer-head {
+	font-family: Oswald;
+	text-transform: uppercase;
 }
 .dropdown-backdrop{
 position: static;
@@ -166,7 +179,7 @@ a:active {
   font-family: archivo narrow;
   font-weight: bold;
   letter-spacing: 5px;
-  font-size: 60px;
+  font-size: 45px;
   text-align: center;
 	margin-bottom: 40px;
 }
@@ -277,21 +290,38 @@ footer {
 	margin: auto;
 	width: 75%;
 }
-
-.wrap {
-	width: 80%;
-	margin: auto;
-	background-color: white;
-	border: 1px solid #1F3112;
-	padding-bottom: 5%;
-	margin-bottom: 2%;
+.pad {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 2%;
+}
+.test {
+	border-radius: 50%;
+	background: rgba(11, 63, 44, 0.95);
+	height: 375px;
+	width: 375px;
+	padding-top: 4%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 .spacing {
 	padding-bottom: 5%;
 }
-.pressdesc {
-	font-family: Open Sans Condensed;
-	font-size: 2em;
+.press-link {
+	font-family: Oswald;
+	font-size: 1.3em;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+.press-desc {
+	width: 65%;
+	color: grey;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .img-zoom {
@@ -360,6 +390,24 @@ img.img-responsive.labels {
 
 
 @media all and (max-width: 700px) and (min-width: 601px) {
+	#mc_embed_signup {
+		background:#fff;
+		clear:left;
+		font:14px Helvetica,Arial,sans-serif;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		margin-top: 25px;
+		margin-bottom: 50px;
+	}
+	#mc_embed_signup .button {
+		background: rgba(11, 63, 44, 0.95);
+		font-family: Oswald;
+	}
+	.mailer-head {
+		font-family: Oswald;
+		text-transform: uppercase;
+	}
 	.height-img {
 		height: 400px;
 		width: 100%;
@@ -435,6 +483,24 @@ img.img-responsive.labels {
 }
 
 @media all and (max-width: 600px) {
+	#mc_embed_signup {
+		background:#fff;
+		clear:left;
+		font:14px Helvetica,Arial,sans-serif;
+		margin-left: auto;
+		margin-right: auto;
+		width: 500px;
+		margin-top: 25px;
+		margin-bottom: 50px;
+	}
+	#mc_embed_signup .button {
+		background: rgba(11, 63, 44, 0.95);
+		font-family: Oswald;
+	}
+	.mailer-head {
+		font-family: Oswald;
+		text-transform: uppercase;
+	}
 .c-email {
   font-family: "Archivo Narrow";
   font-size: 1.5em;
@@ -527,5 +593,24 @@ h1.brewline {
 .height-img {
 	height: 350px;
 	width: 100%;
+	}
 }
-}
+@media all and (max-width: 500px) {
+	#mc_embed_signup {
+		background:#fff;
+		clear:left;
+		font:14px Helvetica,Arial,sans-serif;
+		margin-left: auto;
+		margin-right: auto;
+		width: 400px;
+		margin-top: 25px;
+		margin-bottom: 50px;
+	}
+	#mc_embed_signup .button {
+		background: rgba(11, 63, 44, 0.95);
+		font-family: Oswald;
+	}
+	.mailer-head {
+		font-family: Oswald;
+		text-transform: uppercase;
+	}
