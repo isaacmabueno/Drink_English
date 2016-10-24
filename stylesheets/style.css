@@ -2,6 +2,11 @@ body {
 	background-color: rgb(253,249,243);
 	overflow-x: hidden !important;
 }
+#mc_embed_signup{
+	background:#fff;
+	clear:left;
+	font:14px Helvetica,Arial,sans-serif;
+}
 .dropdown-backdrop{
 position: static;
 }
