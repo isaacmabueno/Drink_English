@@ -317,11 +317,13 @@ footer {
 	text-transform: uppercase;
 }
 .press-desc {
-	width: 65%;
+	width: 60%;
 	color: grey;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	font-family: Open Sans Condensed;
+	font-size: 17px;
 }
 
 .img-zoom {
@@ -403,6 +405,41 @@ img.img-responsive.labels {
 	#mc_embed_signup .button {
 		background: rgba(11, 63, 44, 0.95);
 		font-family: Oswald;
+	}
+	.pad {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		padding: 2%;
+	}
+	.test {
+		border-radius: 50%;
+		background: rgba(11, 63, 44, 0.95);
+		height: 300px;
+		width: 300px;
+		padding-top: 4%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.spacing {
+		padding-bottom: 5%;
+	}
+	.press-link {
+		font-family: Oswald;
+		font-size: 1.1em;
+		color: white;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.press-desc {
+		width: 80%;
+		color: grey;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		font-family: Open Sans Condensed;
+		font-size: 13px;
 	}
 	.mailer-head {
 		font-family: Oswald;
@@ -501,100 +538,100 @@ img.img-responsive.labels {
 		font-family: Oswald;
 		text-transform: uppercase;
 	}
-.c-email {
-  font-family: "Archivo Narrow";
-  font-size: 1.5em;
-  text-align: center;
-}
-.email a{
-	font-family: "Archivo Narrow";
-	font-size: 0.6em;
-	color: black;
-	text-align: center;
-}
-.format {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-.navbar-collapse {
-	text-align:center;
-}
-.navbar-nav {
-  display:inline-block;
-  float:none;
-}
-body {
-	background-color: rgb(253,249,243);
-  overflow-x: hidden !important;
-}
-.navbar .nav > li {
-	z-index: 1001;
-}
-.main {
-	height: 500px;
-	width: 100%;
-	background: #FDF9F3;
-}
-.banner {
-  width: 90%!important;
-  margin-left: 5%;
-  background-size: contain;
-  position: absolute;
-  padding-top: 20%;
-  z-index: 2;
-  display: none;
-}
-.names {
-  text-align: center;
-}
-p.aboutdesc {
-  width: 100%;
-  padding-left: 0px;
-  padding-top: 0%;
-  font-family: "Archivo Narrow";
-  font-size: 1.1em;
-  text-align: justify;
-  margin-left: 12%;
-}
-p.descriptions {
-	margin-top: 5%;
-  font-family: Open Sans Condensed;
-  font-size: 1.3em;
-  margin-bottom: 5%;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-img.img-responsive-main {
-	margin-left: auto;
-	margin-right: auto;
-	display:block;
-}
-img.img-responsive.labels {
-	display: block;
-	max-width: 65%;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-}
-h3.style {
-  text-align: center !important;
-}
-h5.details {
-  text-align: center;
-  font-size: 1em;
-}
-h1.brewline1 {
-  margin-left: 5%;
-}
-h1.brewline {
-  margin-left: 5%;
-}
-.height-img {
-	height: 350px;
-	width: 100%;
+	.c-email {
+	  font-family: "Archivo Narrow";
+	  font-size: 1.5em;
+	  text-align: center;
 	}
-}
+	.email a{
+		font-family: "Archivo Narrow";
+		font-size: 0.6em;
+		color: black;
+		text-align: center;
+	}
+	.format {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.navbar-collapse {
+		text-align:center;
+	}
+	.navbar-nav {
+	  display:inline-block;
+	  float:none;
+	}
+	body {
+		background-color: rgb(253,249,243);
+	  overflow-x: hidden !important;
+	}
+	.navbar .nav > li {
+		z-index: 1001;
+	}
+	.main {
+		height: 500px;
+		width: 100%;
+		background: #FDF9F3;
+	}
+	.banner {
+	  width: 90%!important;
+	  margin-left: 5%;
+	  background-size: contain;
+	  position: absolute;
+	  padding-top: 20%;
+	  z-index: 2;
+	  display: none;
+	}
+	.names {
+	  text-align: center;
+	}
+	p.aboutdesc {
+	  width: 100%;
+	  padding-left: 0px;
+	  padding-top: 0%;
+	  font-family: "Archivo Narrow";
+	  font-size: 1.1em;
+	  text-align: justify;
+	  margin-left: 12%;
+	}
+	p.descriptions {
+		margin-top: 5%;
+	  font-family: Open Sans Condensed;
+	  font-size: 1.3em;
+	  margin-bottom: 5%;
+	  padding-left: 40px;
+	  padding-right: 40px;
+	}
+	img.img-responsive-main {
+		margin-left: auto;
+		margin-right: auto;
+		display:block;
+	}
+	img.img-responsive.labels {
+		display: block;
+		max-width: 65%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	h3.style {
+	  text-align: center !important;
+	}
+	h5.details {
+	  text-align: center;
+	  font-size: 1em;
+	}
+	h1.brewline1 {
+	  margin-left: 5%;
+	}
+	h1.brewline {
+	  margin-left: 5%;
+	}
+	.height-img {
+		height: 350px;
+		width: 100%;
+		}
+	}
 @media all and (max-width: 500px) {
 	#mc_embed_signup {
 		background:#fff;
@@ -614,3 +651,49 @@ h1.brewline {
 		font-family: Oswald;
 		text-transform: uppercase;
 	}
+}
+@media all and (max-width: 400px) {
+	#mc_embed_signup {
+		background:#fff;
+		clear:left;
+		font:14px Helvetica,Arial,sans-serif;
+		margin-left: auto;
+		margin-right: auto;
+		width: 350px;
+		margin-top: 25px;
+		margin-bottom: 50px;
+	}
+	#mc_embed_signup .button {
+		background: rgba(11, 63, 44, 0.95);
+		font-family: Oswald;
+	}
+	.test {
+		border-radius: 50%;
+		background: rgba(11, 63, 44, 0.95);
+		height: 300px;
+		width: 300px;
+		padding-top: 3%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.spacing {
+		padding-bottom: 5%;
+	}
+	.press-link {
+		font-family: Oswald;
+		font-size: 1em;
+		color: white;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.press-desc {
+		width: 60%;
+		color: grey;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		font-family: Open Sans Condensed;
+		font-size: 14px;
+	}
+}
