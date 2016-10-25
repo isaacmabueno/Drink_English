@@ -16,6 +16,12 @@ body {
 	background: rgba(11, 63, 44, 0.95);
 	font-family: Oswald;
 }
+.details {
+  text-align: center;
+  color: rgb(153, 101, 21);
+  font-family: "Archivo Narrow";
+  font-size: 20px;
+}
 .mailer-head {
 	font-family: Oswald;
 	text-transform: uppercase;
@@ -695,5 +701,8 @@ img.img-responsive.labels {
 		display: block;
 		font-family: Open Sans Condensed;
 		font-size: 14px;
+	}
+	.details {
+		font-size: 15px;
 	}
 }
