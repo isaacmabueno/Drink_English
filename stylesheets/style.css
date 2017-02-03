@@ -48,7 +48,7 @@ body {
 }
 #mc_embed_signup .button {
 	background: rgba(11, 63, 44, 0.95);
-	font-family: Oswald;
+	font-family: "Oswald";
 }
 .details {
   text-align: center;
@@ -57,7 +57,7 @@ body {
   font-size: 20px;
 }
 .mailer-head {
-	font-family: Oswald;
+	font-family: "Oswald";
 	text-transform: uppercase;
 }
 .dropdown-backdrop{
@@ -206,7 +206,7 @@ a:active {
 	width: 100%;
 }
 .brewline1 {
-  font-family: archivo narrow;
+  font-family: "Archivo narrow";
   font-weight: bold;
   padding: 0;
   margin-top: 5%;
@@ -216,7 +216,7 @@ a:active {
   text-align: center;
 }
 .brewline {
-  font-family: archivo narrow;
+  font-family: "Archivo narrow";
   font-weight: bold;
   letter-spacing: 5px;
   font-size: 45px;
@@ -224,7 +224,7 @@ a:active {
 	margin-bottom: 40px;
 }
 .seasonal {
-  font-family: archivo narrow;
+  font-family: "Archivo narrow";
   font-weight: bold;
   letter-spacing: 2px;
   font-size: 30px;
@@ -258,7 +258,7 @@ div.box h1{
 }
 .descriptions {
   margin-top: 20%;
-  font-family: Open Sans Condensed;
+  font-family: "Open Sans Condensed";
   font-size: 1.3em;
 }
 .content-secondary li {
@@ -278,7 +278,7 @@ background-size: contain;*/
 .carousel-control.right {
 	background-image: linear-gradient(to right,rgba(253, 249, 243, 1) 0,rgba(253, 249, 243, 1) 100%);
 	}
-	.carousel-control.left {
+.carousel-control.left {
 	background-image: linear-gradient(to right,rgba(253, 249, 243, 1) 0,rgba(253, 249, 243, 1) 100%);
 	}
 .c-email {
@@ -296,7 +296,7 @@ p.email {
 .me {
 	float: right;
 	margin-right: 5%;
-	font-family: archivo narrow;
+	font-family: "Archivo narrow";
 }
 .social-media{
 	margin-top:8%;
@@ -350,7 +350,7 @@ footer {
 	padding-bottom: 5%;
 }
 .press-link {
-	font-family: Oswald;
+	font-family: "Oswald";
 	font-size: 1.3em;
 	color: white;
 	text-align: center;
@@ -362,7 +362,7 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	font-family: Open Sans Condensed;
+	font-family: "Open Sans Condensed";
 	font-size: 17px;
 }
 
